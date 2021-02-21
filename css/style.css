@@ -1,0 +1,91 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+	all: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+	all: unset;
+}
+
+.blue-text {
+    color: #2A74DB;
+}
+
+.fixer {
+    padding-top: 20px;
+    padding-left: 143px;
+    padding-right: 137px;
+    background-color: #F9FAFC;
+    height: 100vh;
+    position: relative;
+}
+
+.fixer .navbar {
+    width: 1162px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+.fixer .navbar .logo {
+    width: 138px;
+    height: 35px;
+}
+
+.fixer .sign-in {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 632px;
+    height: 416px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 40px rgba(0, 45, 113, 0.06);
+    border-radius: 10px;
+    padding: 72px 116px 81px 115px;
+}
+
+.fixer .sign-in .input {
+    width: 400px;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    border-radius: 2px; 
+}
+
+.fixer .sign-in .input-margin{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    background-color: brown;
+}
+
+.fixer .sign-in .forgot-password {
+    text-align: right;
+    margin-top: 13px;
+    margin-bottom: 14px;
+}
+
+.fixer .sign-in .button-wrapper {
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fixer .sign-in .sb-btn {
+    padding: 11px 63px;
+    background: #0AD69C;
+    border-radius: 2px;
+    border-style: none;
+    color: white;
+}
