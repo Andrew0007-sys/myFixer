@@ -33,18 +33,19 @@ ul li {
     position: relative;
 }
 
-.fixer .navbar {
+.fixer .fixer__navbar {
     width: 1162px;
     background-color: aquamarine;
     margin: 0 auto;
 }
 
-.fixer .navbar .logo {
+.logo {
     width: 138px;
     height: 35px;
 }
 
-.fixer .sign-in {
+.fixer .fixer__sign-in {
+    content: '';
     position: absolute;
     top:50%;
     left:50%;
@@ -57,35 +58,37 @@ ul li {
     padding: 72px 116px 81px 115px;
 }
 
-.fixer .sign-in .input {
+.fixer .fixer__sign-in .form-in__input {
     width: 400px;
     height: 40px;
     border: 2px solid #F2F2F2;
     border-radius: 2px; 
 }
 
-.fixer .sign-in .input-margin{
+.input-margin{
     margin-top: 40px;
     margin-bottom: 25px;
     background-color: brown;
 }
 
-.fixer .sign-in .forgot-password {
-    text-align: right;
+.fixer .fixer__sign-in .form-in__forgot-password {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 13px;
     margin-bottom: 14px;
 }
 
-.fixer .sign-in .button-wrapper {
+.fixer .fixer__sign-in .form-in__button-wrapper {
     width: 400px;
     display: flex;
     justify-content: flex-end;
 }
 
-.fixer .sign-in .sb-btn {
+.fixer .fixer__sign-in .sb-btn {
     padding: 11px 63px;
     background: #0AD69C;
     border-radius: 2px;
     border-style: none;
     color: white;
+    cursor: pointer;
 }
